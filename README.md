@@ -24,6 +24,7 @@ Here is a list of some of registered tickets:
 
 * [PhantomJS issue 10993](https://github.com/ariya/phantomjs/issues/10993): "Phantomjs / Ghostdriver crashes on sendKeys to file input element"  
 * [PhantomJS driver issue 282](https://github.com/detro/ghostdriver/issues/282): "PhantomJS hanging on file upload (multiple)" 
+* [PhantomJS driver issue 453](https://github.com/detro/ghostdriver/issues/453): "Cannot upload file" 
 
 I think this is a PhantomJS issue (not phantomjsdriver or webdriver), 
 because thread dump shows that webdriver is just waiting for a PhantomJS response (indefinitely).
